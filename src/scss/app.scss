@@ -1,0 +1,90 @@
+/* By Athlon Front-End Team */
+
+/* Core variables */
+@import 'base/vars';
+
+/* CSS Reset */
+@import 'base/reset';
+
+/* CSS print */
+@import 'base/print';
+
+/* Fonts */
+@import 'base/fonts';
+
+/* Mixins, helpers and functions */
+@import 'base/mixins';
+
+/* Vendor */
+
+/* Components */
+
+/* Browser specific styles */
+@import 'dirty/hacks';
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,900;1,100;1,200;1,400;1,500;1,600;1,900&display=swap");
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.show_nav {
+  padding-top: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.landingSection {
+  background: no-repeat;
+  background-size: cover;
+}
+
+.say-hello {
+  background: url(../images/design/say-hello/say-hello.jpg) no-repeat;
+  background-size: cover;
+}
+
+.bg-color {
+  background-color: #0a205c;
+}
+
+.bg-skin {
+  background-color: #fffaf6;
+}
+
+.text-lightblue {
+  color: #4966b8;
+}
+
+.green-dot {
+  background-color: rgb(55, 186, 8);
+  border-radius: 100%;
+  border: solid 1px green;
+  width: 1rem;
+  height: 1rem;
+}
+
+.blank-dot {
+  background-color: rgba(243, 243, 243, 0);
+  border-radius: 100%;
+  border: solid 1px green;
+  width: 1rem;
+  height: 1rem;
+}
+
+.half-blank-dot {
+  background: linear-gradient(
+    90deg,
+    rgba(55, 186, 8) 0%,
+    rgba(55, 186, 8, 1) 47%,
+    rgba(255, 255, 255, 0) 48%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  border-radius: 100%;
+  border: solid 1px green;
+  width: 1rem;
+  height: 1rem;
+}
